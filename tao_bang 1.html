@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+       table{
+           
+           background-color: orange;
+           size: 150px;
+       }
+       th{
+            border:0px ;
+            width: 260px;
+       }
+       fieldset{
+           background-color: white;
+           float: none;
+       }
+       body {
+           background-color:aliceblue;
+           float: left;
+       }
+       input{
+           text-align: center;
+            margin: 5px ;
+            
+       }
+   </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend></legend>
+            <table>
+                <th scope="colgroup">SỞ THÍCH CỦA BẠN</th></table>
+            <p><span style="color: blue;">Họ và tên</span>
+            <input type="text"  name="Họ va tên"></p>
+            <p><span style="color: blue;">&nbsp;&nbsp;&nbsp;Email</span>
+            <input type="text" name="email"></p>
+            <p><span style="color: blue;">Sở thích</span></p>
+            <p><span style="color: red;">
+                <input type="checkbox" >Thể thao&nbsp;&nbsp;
+                <input type="checkbox" >Âm nhạc&nbsp;&nbsp;&nbsp;
+                <input type="checkbox" >Đọc sách<br>
+                <input type="checkbox" >Lướt Web
+                <input type="checkbox" >Chơi game
+                <input type="checkbox" >Điện ảnh <br>
+                <input type="checkbox" >Du lịch
+            </span></p>
+            <input type="submit" value="Gửi thông tin">
+            <input type="reset" value="Nhập lại">
+               
+        </fieldset>
+    </form>
+</body>
+</html>
