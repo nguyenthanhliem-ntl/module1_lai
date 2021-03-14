@@ -9,10 +9,18 @@
         body{
             background-color: orange;
         }
-        th:nth-child(odd) {
-            background-color: #0e0d0d;
+         table tr:nth-child(n+1) {
+            background-color: #0e0d0d;            
         }      
-         
+        table tr:nth-child(1.5n+2) {
+            background-color: #fffdfd;
+        }
+        table th:nth-child(2n+1 ) {
+            background-color: #0e0d0d;}
+        
+        table th:nth-child(2n+1) {
+            background-color: #fffdfd;
+        } 
         table {
             border: 1px;
         }
